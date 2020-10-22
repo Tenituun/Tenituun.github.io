@@ -15,7 +15,10 @@ div{
         width: 100x;
         height: 100px;
     }
-    ol.lista{list-style-type: lower-alpha}
-    ul.lista{list-style-type: square}
-    
+ul{
+        ul.b{list-style-type: square}
+    }
+ol{
+        ol.a{list-style-type: lower-alpha}
+    }    
 }
