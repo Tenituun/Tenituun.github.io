@@ -10,13 +10,11 @@ p{
     color: green;
 }
 div{
-    <style>
     .lista{
         border: 2px dotted;
         width: 100x;
         height: 100px;
     }
-    </style>
     ol.lista{list-style-type: lower-alpha}
     ul.lista{list-style-type: square}
     
