@@ -10,15 +10,15 @@ p{
     color: green;
 }
 div{
-    .Border{
+    .border{
         border: 2px dotted;
         width: 100x;
         height: 100px;
     }
 ul{
-        ul.b{list-style-type: square}
+        ul.lista{list-style-type: square}
     }
 ol{
-        ol.a{list-style-type: lower-alpha}
+        ol.lista{list-style-type: lower-alpha}
     }    
 }
