@@ -15,10 +15,10 @@ div{
         width: 100x;
         height: 100px;
     }
+}
 ul{
         ul.lista{list-style-type: square}
     }
 ol{
         ol.lista{list-style-type: lower-alpha}
     }    
-}
