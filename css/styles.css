@@ -9,16 +9,12 @@ p{
     font-size: 12px;
     color: green;
 }
-div{
-    .border{
+
+.border{
         border: 2px dotted;
         width: 100x;
-        height: 100px;
-    }
-}
-ul{
-        ul.lista{list-style-type: square}
-    }
-ol{
-        ol.lista{list-style-type: lower-alpha}
-    }    
+    height: 100px;}
+    
+ul.lista{list-style-type: square}
+
+ol.lista{list-style-type: lower-alpha} 
