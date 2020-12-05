@@ -1,16 +1,15 @@
-@media screen and (max-width: 800px){
-
-}
 *{
     margin-left: auto;
     margin-right: auto;
 }
 body{
-  width: auto;
+    width: auto;
+    height: auto;
+    background-color: #f3eac2;
 }
 .top{
     background-color: #f3eac2;
-    height: 50px;
+    height: auto;
 }
 .row{
     margin: auto;
@@ -19,14 +18,21 @@ h1{
     padding: 15px;
 }
 h2{
+    font-size: 30px;
     margin-top: 5px;
-    padding: 2px;
+    padding-bottom: 2px;
+    border-bottom: 5px solid #f5b461;
+    vertical-align: middle;
 }
-#etsi{
+/* #etsi{
     margin-top: 10px;
-}
+} */
 #home{
     font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    border-bottom: 5px solid #f5b461;
+    vertical-align: middle;
 }
 a:link{
     color:#000000;
@@ -38,7 +44,7 @@ a:focus{
     color:#000000;
 }
 a:hover{
-    color:#000000;
+    color:#ec524b;
 }
 a:active{
     color: rgb(0, 0, 0);
@@ -75,12 +81,14 @@ header{
 }
 .secondbox{
     background-color:  #f3eac2;
+    height: auto;
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 75px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    margin-left: 0%;
 }
 #secinfo{
     float: right;
@@ -89,6 +97,7 @@ header{
     font-size: 20px;
     padding: 10px;
     margin-right: 5%;
+    height: 166px;
 }
 h4{
     font-size: 30px;
@@ -100,12 +109,17 @@ h4{
 }
 h5{
     font-size: 30px;
-    float: left;
+    float: right;
     margin-right: 5%;
     margin-left: 5%;
     padding: 10px;
     border: 5px solid #ec524b;
 }
+/* .h5{
+    vertical-align: middle;
+    padding: 10px;
+    margin-right: 5%; */
+/* } */
 iframe{
     margin-left: 5%;
     width: 75%;
@@ -118,8 +132,51 @@ footer{
     text-align: center;
     background-color: #9ad3bc;
     border: 10px solid #f5b461;
+    border-top: #f5b461 solid 10px;
 }
 .pohja{
     padding-top: 15px;
     font-size: 20px;
 }
+#thanks{
+    background-color: #9ad3bc;
+    border: #f5b461 10px solid;
+    text-align: center;
+    vertical-align: middle;
+}
+#contactbox{
+    width: 60%;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+#contact{
+    background-color: #ec524b;
+    color: white;
+    height: auto;
+    /* border: #f5b461 10px solid;
+    border-bottom: #f5b461 5px solid; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+#linkbox{
+    padding: 20px;
+}
+#sclink{
+    color: white;
+    vertical-align: middle;
+}
+#sclogo{
+    margin-left: 10px;
+    border: 5px solid white;
+}
+
+
+@media screen and (max-width: 900px){
+    #secinfo{
+        height: auto;
+    }
+ }
