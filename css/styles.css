@@ -72,6 +72,7 @@ header{
     text-align: center;
     background-color: #CFCFEA;
     border: 10px solid #A89B9D;
+    margin: auto;
 }
 #nav{
     background-color: #816C61;
@@ -265,7 +266,7 @@ footer{
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 990px){
     #secinfo{
         height: auto;
     }
@@ -273,10 +274,20 @@ footer{
         display: inline-block;
         overflow: hidden;
     }
+    .top{
+        height: 100px;
+    }
  }
  @media screen and (max-width: 400px){
+    body{
+        width: fit-content;
+    }
     #logo{
         float: left;
     }
+    .infobox{
+        display: inline-block;
+    }
+    
     
 }
