@@ -168,6 +168,7 @@ img{
 }
 h4{
     font-size: 40px;
+    background-color: #816C61;
     height: fit-content;
     vertical-align: middle;
     color: white;
@@ -186,7 +187,7 @@ h5{
     margin-right: 5%;
     margin-left: 5%;
     padding: 15px;
-    border: 5px solid #A89B9D;
+    border: 5px solid #CFCFEA;
 }
 .h5{
     padding: 30px;
@@ -233,9 +234,13 @@ footer{
     padding: 10px;
     font-size: 20px;
 }
+.contacttext{
+    padding-left: 10px;
+    font-size: 25px;
+}
 #contact{
-    background-color: #CFCFEA;
-    color: #2A2C24;
+    background-color: #816C61;
+    color: white;
     height: auto;
     /* border: #f5b461 10px solid;
     border-bottom: #f5b461 5px solid; */
@@ -246,15 +251,24 @@ footer{
     transition: 1s ease-in-out;
 }
 #contact:hover{
-    box-shadow: #2A2C24 0px 5px 25px;
+    background-color: #CFCFEA;
+    color: #2A2C24;
+    box-shadow: #2A2C24 0px 5px 45px;
 }
 #linkbox{
-    padding: 20px;
+    padding: 60px;
+    display: block;
 }
 #sclink{
     font-size: 20px;
-    color: #2A2C24;
-    vertical-align: middle;
+    color: white;
+    position: relative;
+    top: 50px;
+    background-color: #816C61;
+    border: #816C61 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
 }
 #sclogo{
     margin-left: 10px;
@@ -288,6 +302,13 @@ footer{
     .infobox{
         display: inline-block;
     }
+    #nav{
+        display: inline;
+    }
     
-    
+}
+@media screen and (max-width: 560px){
+    #sclink{
+        top: -40px;
+    }
 }
