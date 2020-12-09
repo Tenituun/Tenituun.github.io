@@ -12,6 +12,7 @@ body{
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .nappitop{
     position: relative;
@@ -36,6 +37,7 @@ h2{
     margin-top: 5px;
     padding-bottom: 2px;
     border-bottom: 5px solid #2A2C24;
+    width: fit-content;
     /* box-shadow: #2A2C24 0px 4px 5px; */
 }
 /* #etsi{
@@ -75,7 +77,7 @@ header{
     padding-top: 25px;
     padding-bottom: 25px;
     box-shadow: #2A2C24 0px 10px 10px;
-    
+    text-align: center;
 }
 .nappi{
     background-color: #CFCFEA;
@@ -134,6 +136,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     float: right;
+    border: 0;
 }
 .secondbox{
     /* background-color:  #816C61; */
